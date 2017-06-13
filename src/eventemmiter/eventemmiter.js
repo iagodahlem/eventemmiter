@@ -14,7 +14,12 @@ class EventEmmiter {
   }
 
   emit(event) {
+    if (!this._events.hasOwnProperty(event)) {
+      return false
+    }
 
+    this._events[event].forEach(callback => callback())
+    return true
   }
 
   removeListener(event) {
