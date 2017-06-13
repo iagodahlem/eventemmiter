@@ -1,5 +1,3 @@
 const EventEmmiter = require('./eventemmiter')
 
-module.exports = {
-  EventEmmiter,
-}
+module.exports = EventEmmiter
