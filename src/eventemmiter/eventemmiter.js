@@ -1,3 +1,5 @@
+'use strict'
+
 class EventEmmiter {
   constructor() {
     this._events = {}
@@ -37,7 +39,8 @@ class EventEmmiter {
   }
 
   removeAllListeners() {
-
+    this._events = {}
+    return this
   }
 
   hasEvent(event = '', callback = false) {
