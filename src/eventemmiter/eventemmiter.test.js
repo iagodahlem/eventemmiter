@@ -2,11 +2,13 @@ const EventEmmiter = require('./eventemmiter')
 
 describe('EventEmmiter', () => {
   let emmiter
-  const sayHello = jest.fn()
-  const sayGoodbye = jest.fn()
+  let sayHello = jest.fn()
+  let sayGoodbye = jest.fn()
 
   beforeEach(() => {
     emmiter = new EventEmmiter()
+    sayHello = jest.fn()
+    sayGoodbye = jest.fn()
   })
 
   it('have a empty object events', () => {
