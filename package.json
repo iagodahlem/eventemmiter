@@ -1,0 +1,13 @@
+{
+  "name": "javascript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Iago Dahlem Lorensini <iagodahlemlorensini@gmail.com>",
+  "scripts": {
+    "test": "jest --watch"
+  },
+  "devDependencies": {
+    "jest": "^20.0.4"
+  },
+  "license": "MIT"
+}
