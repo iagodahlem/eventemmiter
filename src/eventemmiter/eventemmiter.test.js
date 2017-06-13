@@ -116,6 +116,12 @@ describe('EventEmmiter', () => {
   })
 
   describe('removeAllListeners', () => {
+    it('remove all existent listeners', () => {
+      emmiter.on('hello', sayHello)
+      emmiter.on('goodbye', sayGoodbye)
 
+      expect(emmiter.removeAllListeners()).toBe(emmiter)
+      expect(emmiter._events).toEqual({})
+    })
   })
 })
