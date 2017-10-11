@@ -1,6 +1,6 @@
-# javascript
+# eventemmiter
 
-Repository for practice JavaScript.
+Event emmiter for node and browser.
 
 ## License
 
