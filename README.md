@@ -1,6 +1,6 @@
-# eventemmiter
+# eventsemitter
 
-Event emmiter for node and browser.
+Event emitter for node and browser.
 
 ## License
 
