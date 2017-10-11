@@ -1,13 +1,26 @@
 {
-  "name": "javascript",
+  "name": "eventemmiter",
   "version": "1.0.0",
+  "description": "Event emmiter for node and browser",
   "main": "index.js",
-  "author": "Iago Dahlem Lorensini <iagodahlemlorensini@gmail.com>",
+  "repository": "git@github.com:iagodahlem/eventemmiter.git",
+  "author": "Iago Dahlem Lorensini <iagodahlemlorensini@gmail.com> (http://iagodahlem.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iagodahlem/eventemmiter/issues"
+  },
+  "homepage": "https://github.com/iagodahlem/eventemmiter#readme",
   "scripts": {
     "test": "jest --watch"
   },
   "devDependencies": {
-    "jest": "^20.0.4"
+    "jest": "^21.2.1"
   },
-  "license": "MIT"
+  "keywords": [
+    "browser",
+    "eventdriven",
+    "eventemmiter",
+    "javascript",
+    "node"
+  ]
 }
