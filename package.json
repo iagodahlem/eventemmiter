@@ -1,6 +1,6 @@
 {
   "name": "eventemmiter",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "Event emmiter for node and browser",
   "main": "index.js",
   "repository": "git@github.com:iagodahlem/eventemmiter.git",
