@@ -1,6 +1,6 @@
 # eventsemitter
 
-Event emitter for node and browser.
+Event emitter for node. Did it only for fun. Use by your own risk.
 
 ## License
 
